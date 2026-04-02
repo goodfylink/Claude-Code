@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-restored-src",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ../scripts/generate-restored-src.js && node ../scripts/build-restored-src.js",
+    "start": "node ./dist/entrypoints/cli.js",
+    "help": "node ./dist/entrypoints/cli.js --help",
+    "version": "node ./dist/entrypoints/cli.js --version"
+  }
+}
